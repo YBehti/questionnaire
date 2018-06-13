@@ -1,0 +1,48 @@
+root { 
+    display: block;
+}
+
+*{
+    font-family: Verdana, sans-serif;    
+}
+
+h2{
+    font-size:20px;    
+}
+#questions h2{
+    height:80px;
+}
+#quizz{
+    display: none;
+    width:600px;
+    height:300px;
+    margin:20px;
+    padding:20px;
+    background-color: lightsteelblue;
+    border:3px solid gray;
+    border-radius: 10px;
+}
+
+.button{
+    width:150px;
+    height:30px;
+    margin:5px;
+    padding:5px;
+    background-color:lightgray;
+    border:3px solid gray;
+    border-radius: 5px;
+}
+disabled{}
+.button:hover:not(.disabled){    
+    background-color:white;
+}
+#message{
+    margin:10px;
+    padding:10px;
+}
+.correct{
+    background-color: lightgreen !important;
+}
+.error{    
+    background-color: lightpink !important;
+}
